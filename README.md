@@ -63,6 +63,8 @@ A Python program that demonstrates how to compute parametric functions given two
 
 ## Usage
 
+### Parametric Functions
+
 The functions `cubic_segment` and `sin_segment` are the parametric functions demonstrated in this program.
 
 Both functions take two input vector parameters that serve as the parametric points through which the functions pass. 
@@ -89,6 +91,8 @@ v0 = [  1.0 , -0.75  ]
 v1 = [  4.0 ,  0.5   ]
 data = sin_segment ( v0, v1 )
 ```
+
+### Parametric Function Return Data
 
 Output data is returned as two arrays, one for the function domain (independent variable), and range (dependent variable).
 - In terms of notation, we'll express the domain for linear algebraic functions as $x$, and for trigonometric functions, we'll express it as $t$.
@@ -135,6 +139,10 @@ plot_function (
 ) 
 ```
 ![Image](images/figure_2.png)
+
+### Symbolic Solution to Parametric Cubic Polynomial
+
+The `solve_cubic_coefficients` 
 
 ## Features
 - Ping a specified host with a configurable packet size.
