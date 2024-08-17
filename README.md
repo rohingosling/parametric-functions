@@ -174,6 +174,15 @@ d = ─────────────────────────�
 
 ## Mathematical principles
 
+### Parametric Solutions for Cubic Polynomial Coefficient
+
+Cubic Polynomial function:
+
+$$f(x) = a \cdot x^3 + b \cdot x^2 + c \cdot x + d$$ 
+
+### Parametric Solutions for Sine Function Parameters 
+
+
 ## Contributing
 Contributions are welcome! Please follow the contribution guidelines.
 1. Fork the project.
