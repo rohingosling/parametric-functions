@@ -140,6 +140,27 @@ plot_function (
 ```
 ![Image](images/figure_2.png)
 
+| - | - |
+| ```python
+# Test parametric sine function.
+
+v0 = [  1.0 , -0.75  ]
+v1 = [  4.0 ,  0.5   ]
+data = sin_segment ( v0, v1 )
+
+# Plot the computed function.
+
+lim_x = [  0, 2*PI ]
+lim_y = [ -1, 1    ]
+plot_function (
+    data,
+    [ v0, v1 ],
+    [ lim_x, lim_y ],
+    'Parametric Sine Function',
+    'f(t) = a·sin( w·(t - p) ) + c'
+) 
+``` | ![Image](images/figure_2.png) |
+
 ### Symbolic Solution to Parametric Cubic Polynomial
 
 The `solve_cubic_coefficients` function uses the Python package `sympy`, to implement a symbolic solution for the coefficients of a cubic polynomial, given two turning points.
