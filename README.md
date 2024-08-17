@@ -172,10 +172,7 @@ d = ─────────────────────────�
           x₀  - 3⋅x₀ ⋅x₁ + 3⋅x₀⋅x₁  - x₁
 ```
 
-## Features
-- Ping a specified host with a configurable packet size.
-- Log ping results to a CSV file.
-- Print statistics to the console.
+## Mathematical principles
 
 ## Contributing
 Contributions are welcome! Please follow the contribution guidelines.
