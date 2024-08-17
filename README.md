@@ -188,7 +188,7 @@ $$f'(x) = \dfrac{dy}{dx}  = 3 a x^2 + 2 b x + c$$
 
 ### Parametric Solutions for Sine Function Parameters
 
-$$ y_0 = a x_0^3 + b x_0^2 + c x_0 + d &nbsp &nbsp &nbsp &nbsp ...(1) $$ 
+$$ y_0 = a x_0^3 + b x_0^2 + c x_0 + d \quad ...(1) $$ 
 
 
 ## Contributing
