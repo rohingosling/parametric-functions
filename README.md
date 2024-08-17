@@ -142,7 +142,35 @@ plot_function (
 
 ### Symbolic Solution to Parametric Cubic Polynomial
 
-The `solve_cubic_coefficients` 
+The `solve_cubic_coefficients` function implements a symbolic solution for the coefficients of a cubic polynomial, given two turning points.
+```Python
+solve_cubic_coefficients ()
+```
+```Terminal
+             -2⋅y₀ + 2⋅y₁
+a = ───────────────────────────────
+      3       2             2     3
+    x₀  - 3⋅x₀ ⋅x₁ + 3⋅x₀⋅x₁  - x₁
+
+
+    3⋅x₀⋅y₀ - 3⋅x₀⋅y₁ + 3⋅x₁⋅y₀ - 3⋅x₁⋅y₁
+b = ─────────────────────────────────────
+         3       2             2     3
+       x₀  - 3⋅x₀ ⋅x₁ + 3⋅x₀⋅x₁  - x₁
+
+
+       -6⋅x₀⋅x₁⋅y₀ + 6⋅x₀⋅x₁⋅y₁
+c = ───────────────────────────────
+      3       2             2     3
+    x₀  - 3⋅x₀ ⋅x₁ + 3⋅x₀⋅x₁  - x₁
+
+
+      3          2                2        3
+    x₀ ⋅y₁ - 3⋅x₀ ⋅x₁⋅y₁ + 3⋅x₀⋅x₁ ⋅y₀ - x₁ ⋅y₀
+d = ───────────────────────────────────────────
+            3       2             2     3
+          x₀  - 3⋅x₀ ⋅x₁ + 3⋅x₀⋅x₁  - x₁
+```
 
 ## Features
 - Ping a specified host with a configurable packet size.
