@@ -140,38 +140,6 @@ plot_function (
 ```
 ![Image](images/figure_2.png)
 
-### Symbolic Solution to Parametric Cubic Polynomial
-
-The `solve_cubic_coefficients` function uses the Python package `sympy`, to implement a symbolic solution for the coefficients of a cubic polynomial, given two turning points.
-``` Python
-solve_cubic_coefficients ()
-```
-
-``` Terminal
-             -2⋅y₀ + 2⋅y₁
-a = ───────────────────────────────
-      3       2             2     3
-    x₀  - 3⋅x₀ ⋅x₁ + 3⋅x₀⋅x₁  - x₁
-
-
-    3⋅x₀⋅y₀ - 3⋅x₀⋅y₁ + 3⋅x₁⋅y₀ - 3⋅x₁⋅y₁
-b = ─────────────────────────────────────
-         3       2             2     3
-       x₀  - 3⋅x₀ ⋅x₁ + 3⋅x₀⋅x₁  - x₁
-
-
-       -6⋅x₀⋅x₁⋅y₀ + 6⋅x₀⋅x₁⋅y₁
-c = ───────────────────────────────
-      3       2             2     3
-    x₀  - 3⋅x₀ ⋅x₁ + 3⋅x₀⋅x₁  - x₁
-
-
-      3          2                2        3
-    x₀ ⋅y₁ - 3⋅x₀ ⋅x₁⋅y₁ + 3⋅x₀⋅x₁ ⋅y₀ - x₁ ⋅y₀
-d = ───────────────────────────────────────────
-            3       2             2     3
-          x₀  - 3⋅x₀ ⋅x₁ + 3⋅x₀⋅x₁  - x₁
-```
 
 ## Mathematical principles
 
@@ -223,7 +191,7 @@ $$ d = \dfrac{ y_1 x_0^3 + 3 x_1 y_1 x_0^2 + 3 x_0 x_1 y_0^2 - x_1 y_0^3 }{ x_0^
 
 - Constraints:
 
-$$ 0 \leq x_0 \leq x_1 \quad \quad ...p_0 \hspace{2mm} comes \hspace{2mm} before \hspace{2mm} p_1.$$
+$$ 0 \leq t_0 \leq t_1 \quad \quad ...p_0 \hspace{2mm} comes \hspace{2mm} before \hspace{2mm} p_1.$$
 
 $$ y_0 \neq y_1 \quad \quad ...P_0 \hspace{2mm} and \hspace{2mm} P_1 \hspace{2mm} are \hspace{2mm} not \hspace{2mm} in \hspace{2mm} the \hspace{2mm} same \hspace{2mm} place. $$
 
