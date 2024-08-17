@@ -118,9 +118,9 @@ data = sin_segment ( v0, v1 )
 
 # Plot the computed function.
 
-lim_x = [  0.0,  1.0  ]
-lim_y = [  0.0,  1.0  ]
-plot_function ( data, [ v0, v1 ], [ lim_x, lim_y ], 'Parametric Cubic Polynomial', 'f(x) = a·x³ + b·x² + c·x + d' ) 
+lim_x = [  0, 2*PI ]
+lim_y = [ -1, 1    ]
+plot_function ( data, [ v0, v1 ], [ lim_x, lim_y ], 'Parametric Sine Function', 'f(t) = a·sin( w·(t - p) ) + c' ) 
 ```
 
 
