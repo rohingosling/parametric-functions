@@ -85,8 +85,8 @@ data = cubic_segment ( v0, v1 )
 ```python
 # Test parametric sine function.
 
-v0   = [  1.0 , -0.25  ]
-v1   = [  3.0 ,  0.75  ]
+v0 = [  1.0 , -0.75  ]
+v1 = [  4.0 ,  0.5   ]
 data = sin_segment ( v0, v1 )
 ```
 
@@ -96,7 +96,7 @@ Output data is returned as two arrays, one for the function domain (independent 
 - See the implementation of the `plot_function` for the details of the plots shown below. 
   
 ```python
-# Test parametric sine function.
+# Test parametric cubic polynomial function.
 
 v0   = [  0.2 ,  0.2  ]
 v1   = [  0.8 ,  0.8  ]
@@ -117,8 +117,8 @@ plot_function (
 ```python
 # Test parametric sine function.
 
-v0   = [  1.0 , -0.25  ]
-v1   = [  3.0 ,  0.75  ]
+v0 = [  1.0 , -0.75  ]
+v1 = [  4.0 ,  0.5   ]
 data = sin_segment ( v0, v1 )
 
 # Plot the computed function.
