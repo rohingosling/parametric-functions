@@ -175,6 +175,7 @@ d = ─────────────────────────�
 
 ## Mathematical principles
 
+
 ### Parametric Solutions for Cubic Polynomial Coefficient
 
 - Given:
@@ -213,9 +214,22 @@ $$ c = \dfrac{ 6 x_0 x_1 y_1 + 6 x_0 x_1 y_0 }{ x_0^3 - 3 x_1 x_0^2 + 3 x_0 x_1^
 
 $$ d = \dfrac{ y_1 x_0^3 + 3 x_1 y_1 x_0^2 + 3 x_0 x_1 y_0^2 - x_1 y_0^3 }{ x_0^3 - 3 x_1 x_0^2 + 3 x_0 x_1^2 - x_1^3 } $$
 
+
 ### Parametric Solutions for Sine Function Parameters
 
+- Given:
 
+- System of equations to solve:
+
+- Constraints:
+
+$$ 0 \leq x_0 \leq x_1 \quad \quad ...p_0 \hspace{2mm} comes \hspace{2mm} before \hspace{2mm} p_1.$$
+
+$$ y_0 \neq y_1 \quad \quad ...P_0 \hspace{2mm} and \hspace{2mm} P_1 \hspace{2mm} are \hspace{2mm} not \hspace{2mm} in \hspace{2mm} the \hspace{2mm} same \hspace{2mm} place. $$
+
+- Coefficient Solutions:
+
+To-do.
 
 
 ## Contributing
@@ -234,4 +248,4 @@ Distributed under the MIT License. See LICENSE for more information.
 - Project Link: [https://github.com/your-username/your-repo](https://github.com/rohingosling/pinger)
 
 ## Acknowledgments
-- [ping3](https://github.com/kyan001/ping3)
+- N/A
