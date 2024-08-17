@@ -205,9 +205,13 @@ $$ y_0 \neq y_1 \quad \quad ...P_0 \hspace{2mm} and \hspace{2mm} P_1 \hspace{2mm
 
 - Coefficient Solutions:
 
-$$ a = \dfrac{ 2 y_1 - 2 y_0 }{ x_0^3 - 3 X_1 X_0^2 + 3 x_0 x_1^2 - X_1^3 } $$
+$$ a = \dfrac{ 2 y_1 - 2 y_0 }{ x_0^3 - 3 x_1 x_0^2 + 3 x_0 x_1^2 - x_1^3 } $$
 
-$$ b = \dfrac{ 3 x_0 y_0 - 3 x_0 y_1 + 3 x_1 y_0 - 3 x_1 y_1 }{ x_0^3 - 3 X_1 X_0^2 + 3 x_0 x_1^2 - X_1^3 } $$
+$$ b = \dfrac{ 3 x_0 y_0 - 3 x_0 y_1 + 3 x_1 y_0 - 3 x_1 y_1 }{ x_0^3 - 3 x_1 x_0^2 + 3 x_0 x_1^2 - x_1^3 } $$
+
+$$ c = \dfrac{ 6 x_0 x_1 y_1 + 6 x_0 x_1 y_0 }{ x_0^3 - 3 x_1 x_0^2 + 3 x_0 x_1^2 - x_1^3 } $$
+
+$$ d = \dfrac{ y_1 x_0^3 + 3 x_1 y_1 x_0^2 + 3 x_0 x_1 y_0^2 - x_1 y_0^3 }{ x_0^3 - 3 x_1 x_0^2 + 3 x_0 x_1^2 - x_1^3 } $$
 
 ### Parametric Solutions for Sine Function Parameters
 
