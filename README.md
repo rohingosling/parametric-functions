@@ -178,7 +178,7 @@ d = ─────────────────────────�
 
 Cubic Polynomial function:
 
-$$f(x) = a \cdot x^3 + b \cdot x^2 + c \cdot x + d$$ 
+$$f(x) = a x^3 + b x^2 + c x + d$$ 
 
 Derivative of f:
 
