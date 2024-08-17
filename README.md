@@ -143,10 +143,11 @@ plot_function (
 ### Symbolic Solution to Parametric Cubic Polynomial
 
 The `solve_cubic_coefficients` function uses the Python package `sympy`, to implement a symbolic solution for the coefficients of a cubic polynomial, given two turning points.
-```Python
+``` Python
 solve_cubic_coefficients ()
 ```
-```Terminal
+
+``` Terminal
              -2⋅y₀ + 2⋅y₁
 a = ───────────────────────────────
       3       2             2     3
@@ -188,7 +189,7 @@ $$f'(x) = \dfrac{dy}{dx}  = 3 a x^2 + 2 b x + c$$
 
 ### Parametric Solutions for Sine Function Parameters
 
-$$ y_0 = a x_0^3 + b x_0^2 + c x_0 + d \quad ...(1) $$ 
+$$ y_0 = a x_0^3 + b x_0^2 + c x_0 + d \quad \quad ...(1) $$ 
 
 
 ## Contributing
