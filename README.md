@@ -134,6 +134,7 @@ plot_function (
     'f(t) = a·sin( w·(t - p) ) + c'
 ) 
 ```
+![Image](images/figure_2.png)
 
 ## Features
 - Ping a specified host with a configurable packet size.
