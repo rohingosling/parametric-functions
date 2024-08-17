@@ -67,8 +67,8 @@ The functions `cubic_segment` and `sin_segment` are the parametric functions dem
 
 Both functions take two input vector parameters that serve as the parametric points through which the functions pass. 
 - Parameters:
-  - $p_0$
-  - $p_1$
+  - $p_0 ( x_0, y_0 )$ ...Turning point 1.
+  - $p_1 ( x_1, y_1 )$ ...Turning point 2.
 - Return:
   - [ Array of x values, Array of y values ]
 
