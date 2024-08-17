@@ -189,13 +189,13 @@ $$ p_1 ( x_1, y_1 ) \quad \quad ...Second \hspace{2mm} turning \hspace{2mm} poin
 
 - System of equations to solve:
 
-$$ y_0 = a x_0^3 + b x_0^2 + c x_0 + d \quad \quad ...(1) \quad f_x \hspace{2mm} passes \hspace{2mm} through \hspace{2mm} p_0. \hspace{2mm} y_0 = f(x_0) $$
+$$ y_0 = a x_0^3 + b x_0^2 + c x_0 + d \quad \quad ...(1) \quad f_x \hspace{2mm} passes \hspace{2mm} through \hspace{2mm} p_0. \hspace{2mm} f(x_0) = y_0 $$
 
-$$ y_1 = a x_1^3 + b x_1^2 + c x_1 + d \quad \quad ...(2) \quad f_x \hspace{2mm} passes \hspace{2mm} through \hspace{2mm} p_1. \hspace{2mm} y_1 = f(x_1) $$
+$$ y_1 = a x_1^3 + b x_1^2 + c x_1 + d \quad \quad ...(2) \quad f_x \hspace{2mm} passes \hspace{2mm} through \hspace{2mm} p_1. \hspace{2mm} f(x_1) = y_1 $$
 
-$$ 0 = 3 a x_0^2 + 2 b x_0 + c \quad \quad ...(3) \quad Gradient \hspace{2mm} is \hspace{2mm} zero \hspace{2mm} at \hspace{2mm} p_0, \hspace{2mm} f'(x_0) = 0 $$
+$$ 0 = 3 a x_0^2 + 2 b x_0 + c \quad \quad ...(3) \quad Gradient \hspace{2mm} of \hspace{2mm} f_x \hspace{2mm} is \hspace{2mm} zero \hspace{2mm} at \hspace{2mm} p_0, \hspace{2mm} f'(x_0) = 0 $$
 
-$$ 0 = 3 a x_1^2 + 2 b x_1 + c \quad \quad ...(4) \quad Gradient \hspace{2mm} is \hspace{2mm} zero \hspace{2mm} at \hspace{2mm} p_1, \hspace{2mm} f'(x_1) = 0 $$
+$$ 0 = 3 a x_1^2 + 2 b x_1 + c \quad \quad ...(4) \quad Gradient \hspace{2mm} of \hspace{2mm} f_x \hspace{2mm} is \hspace{2mm} zero \hspace{2mm} at \hspace{2mm} p_1, \hspace{2mm} f'(x_1) = 0 $$
 
 - Constraints:
 
