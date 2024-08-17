@@ -2,7 +2,7 @@
 
 A Python program that demonstrates how to compute parametric functions given two turning points.
 - In the current version of this test program, the following parametric functions are computed.
-  -  Sine function of the form, f(t) = a·sin( w·( t - p ) ) + c, f(t) = a \cdot \sin\left( w \cdot ( t - p ) \right) + c, given two turning points. 
+  -  Sine function of the form, f(t) = a·sin( w·( t - p ) ) + c, given two turning points. 
   -  Cubic polynomial of the form, f(x) = a·x³ + b·x² + c·x + d, given two turing points.
 - The program also shows how to find solutions for the coefficients of a cubic polynomial, given two turning points.
 
