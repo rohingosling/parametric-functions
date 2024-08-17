@@ -180,7 +180,7 @@ Cubic Polynomial function:
 
 $$f(x) = a x^3 + b x^2 + c x + d$$ 
 
-Derivative of f:
+Derivative of $f$:
 
 $$f'(x) = \dfrac{dy}{dx}  = 3 a x^2 + 2 b x + c$$
 
