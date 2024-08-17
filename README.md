@@ -185,7 +185,7 @@ $$f'(x) = \dfrac{dy}{dx}  = 3 a x^2 + 2 b x + c \quad \quad ...Derivative \hspac
 
 $$ p_0 ( x_0, y_0 ) \quad \quad ...First \hspace{2mm} turning \hspace{2mm} point. $$
 
-$$ p_1 ( x_1, y_1 ) \quad \quad ...First \hspace{2mm} turning \hspace{2mm} point. $$
+$$ p_1 ( x_1, y_1 ) \quad \quad ...Second \hspace{2mm} turning \hspace{2mm} point. $$
 
 - System of equations to solve:
 
@@ -196,6 +196,12 @@ $$ y_1 = a x_1^3 + b x_1^2 + c x_1 + d \quad \quad ...(2) \quad f(x) \hspace{2mm
 $$ 0 = 3 a x_0^2 + 2 b x_0 + c \quad \quad ...(3) \quad Gradient \hspace{2mm} is \hspace{2mm} zero \hspace{2mm} at \hspace{2mm} p_0, \hspace{2mm} f'(x_0) = 0 $$
 
 $$ 0 = 3 a x_1^2 + 2 b x_1 + c \quad \quad ...(4) \quad Gradient \hspace{2mm} is \hspace{2mm} zero \hspace{2mm} at \hspace{2mm} p_1, \hspace{2mm} f'(x_1) = 0 $$
+
+- Constraints:
+
+$$ 0 <= x_0 <= x_1 $$
+
+$$ y_0 <> y_1 $$
 
 ### Parametric Solutions for Sine Function Parameters
 
