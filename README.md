@@ -177,13 +177,11 @@ d = ─────────────────────────�
 
 ### Parametric Solutions for Cubic Polynomial Coefficient
 
-- Cubic Polynomial function:
+- Given:
 
-$$f(x) = a x^3 + b x^2 + c x + d$$ 
+$$f(x) = a x^3 + b x^2 + c x + d \quad \quad ...Cubic \hspace{2mm} polynomial function.$$ 
 
-- Derivative of $f$:
-
-$$f'(x) = \dfrac{dy}{dx}  = 3 a x^2 + 2 b x + c$$
+$$f'(x) = \dfrac{dy}{dx}  = 3 a x^2 + 2 b x + c \quad \quad ...Derivative \hspace{2mm} of f.$$ 
 
 - System of equations to solve:
 
