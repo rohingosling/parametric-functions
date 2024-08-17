@@ -199,9 +199,9 @@ $$ 0 = 3 a x_1^2 + 2 b x_1 + c \quad \quad ...(4) \quad Gradient \hspace{2mm} is
 
 - Constraints:
 
-$$ 0 <= x_0 <= x_1 $$
+$$ 0 \leq x_0 \leq x_1 \quad \quad ...p_0 comes before p_1.$$
 
-$$ y_0 <> y_1 $$
+$$ y_0 \neq y_1 \quad \quad ...P_0 and P_1 can not be in the same place. $$
 
 ### Parametric Solutions for Sine Function Parameters
 
