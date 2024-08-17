@@ -70,7 +70,7 @@ Both functions take two input vector parameters that serve as the parametric poi
   - $vec{p_0} ( x_0, y_0 ) ...Turning point 1$.
   - $vec{p_1} ( x_1, y_1 ) ...Turning point 2$.
 - Return:
-  - $[ Array of x values, Array of y values ] ...vec{Y} = f(vec{X})$ 
+  - $[ Array of x values, Array of y values ] ...vec{Y} = f ( vec{X} )$ 
 
 ```python
 from app_config import AppConfig
