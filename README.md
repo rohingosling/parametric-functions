@@ -72,14 +72,22 @@ Both functions take two input vector parameters that serve as the parametric poi
 - Return:
   - [ Array of x values, Array of y values ] $...\vec{Y} = f ( \vec{X} )$ 
 
-```python
-from app_config import AppConfig
-from application import Application
+The functions may be tested by setting up input vectors and passing them to them through. 
 
-if __name__ == "__main__":
-    config = AppConfig().get_arguments()
-    app = Application(config)
-    app.run()
+```python
+# Test parametric cubic polynomial 
+
+v0   = [  0.2 ,  0.2  ]
+v1   = [  0.8 ,  0.8  ]
+data = cubic_segment ( v0, v1 )
+```
+
+```python
+# Test parametric sine function.
+
+v0   = [  1.0 , -0.25  ]
+v1   = [  3.0 ,  0.75  ]
+data = sin_segment ( v0, v1 )
 ```
 
 ## Features
