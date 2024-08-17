@@ -113,6 +113,7 @@ plot_function (
     'Parametric Cubic Polynomial', 'f(x) = a·x³ + b·x² + c·x + d'
 ) 
 ```
+![Image](images/figure_1.png)
 
 ```python
 # Test parametric sine function.
