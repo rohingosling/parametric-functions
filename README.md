@@ -180,6 +180,10 @@ Cubic Polynomial function:
 
 $$f(x) = a \cdot x^3 + b \cdot x^2 + c \cdot x + d$$ 
 
+Derivative of f:
+
+$$f'(x) = \dfrac{dy}{dx}  = 3 \cdot a \cdot x^2 + 2 \cdot b \cdot x + c
+
 ### Parametric Solutions for Sine Function Parameters 
 
 
