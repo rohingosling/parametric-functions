@@ -193,7 +193,7 @@ $$ y_1 = a x_1^3 + b x_1^2 + c x_1 + d \quad \quad ...(2) f(x) passes through p_
 
 $$ 0 = 3 a x_0^2 + 2 b x_0 + c \quad \quad ...(3) Gradient is zero at p_0, f'(x_0) = 0 $$
 
-$$ 0 = 3 a x_1^2 + 2 b x_1 + c \quad \quad ...(4) Gradient is zero at p_1, f'(x_1) = 0 $$$$
+$$ 0 = 3 a x_1^2 + 2 b x_1 + c \quad \quad ...(4) Gradient is zero at p_1, f'(x_1) = 0 $$
 
 ### Parametric Solutions for Sine Function Parameters
 
