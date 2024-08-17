@@ -72,7 +72,7 @@ Both functions take two input vector parameters that serve as the parametric poi
 - Return:
   - [ Array of x values, Array of y values ] $...\vec{Y} = f ( \vec{X} )$ 
 
-The functions may be tested by setting up input vectors and passing them to them through. 
+The functions may be tested by setting up input vectors that represent turning points through which the function passes. 
 
 ```python
 # Test parametric cubic polynomial 
@@ -89,6 +89,41 @@ v0   = [  1.0 , -0.25  ]
 v1   = [  3.0 ,  0.75  ]
 data = sin_segment ( v0, v1 )
 ```
+
+Output data is returned as two arrays, one for the function domain (independent variable), and range (dependent variable).
+- In terms of notation, we'll express the domain for linear algebraic functions as $x$, and for trigonometric functions, we'll express it as $t$.
+- In the example below, we will use the data to plot the computed parametric functions.
+- See the implementation of the `plot_function` for the details of the plots shown below. 
+  
+```python
+# Test parametric sine function.
+
+v0   = [  0.2 ,  0.2  ]
+v1   = [  0.8 ,  0.8  ]
+data = cubic_segment ( v0, v1 )
+
+# Plot the computed function.
+
+lim_x = [  0.0,  1.0  ]
+lim_y = [  0.0,  1.0  ]
+plot_function ( data, [ v0, v1 ], [ lim_x, lim_y ], 'Parametric Cubic Polynomial', 'f(x) = a·x³ + b·x² + c·x + d' ) 
+```
+
+```python
+# Test parametric sine function.
+
+v0   = [  1.0 , -0.25  ]
+v1   = [  3.0 ,  0.75  ]
+data = sin_segment ( v0, v1 )
+
+# Plot the computed function.
+
+lim_x = [  0.0,  1.0  ]
+lim_y = [  0.0,  1.0  ]
+plot_function ( data, [ v0, v1 ], [ lim_x, lim_y ], 'Parametric Cubic Polynomial', 'f(x) = a·x³ + b·x² + c·x + d' ) 
+```
+
+
 
 ## Features
 - Ping a specified host with a configurable packet size.
