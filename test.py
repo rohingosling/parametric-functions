@@ -367,7 +367,7 @@ def main ():
 
     plot_function ( data, [ v0, v1 ], [ lim_x, lim_y ], 'Parametric Cubic Polynomial', 'f(x) = a·x³ + b·x² + c·x + d' ) 
 
-    # Test parametric sin segment function.    
+    # Test parametric sine segment function.    
     # - Initialise test vertices v₀ and v₁.
     # - Initialise graph domain and range limit vectors.
     
