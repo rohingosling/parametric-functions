@@ -142,7 +142,7 @@ plot_function (
 
 ### Symbolic Solution to Parametric Cubic Polynomial
 
-The `solve_cubic_coefficients` function implements a symbolic solution for the coefficients of a cubic polynomial, given two turning points.
+The `solve_cubic_coefficients` function uses the Python package `sympy`, to implement a symbolic solution for the coefficients of a cubic polynomial, given two turning points.
 ```Python
 solve_cubic_coefficients ()
 ```
