@@ -63,32 +63,14 @@ A Python program that demonstrates how to compute parametric functions given two
 
 ## Usage
 
-CLI Usage:
+The functions `cubic_segment` and `sin_segment` are the parametric functions demonstrated in this program.
 
-```cmd
-python main.py -H <host> -s <packet_size> [-f]
-```
-- `<host>` : The host to ping (default: 8.8.8.8)
-- `<packet_size>` : The size of the ping packet in bytes (default: 32)
-- `-f` : Enable logging to a CSV file (optional)
-
-Example 1:
-- Ping Google with 32-byte packets.
-- Do not write output to CSV file, i.e. do not include the `-f` argument.
-
-```cmd
-python main.py -H 8.8.8.8 -s 32
-```
-
-Example 2:
-- Ping local host with 128-byte packets.
-- Write output to CSV file, i.e. Include the `-f` argument.
-
-```cmd
-python main.py -H 192.168.1.1 -s 128 -f
-```
-
-Code Usage:
+Both functions take two input vector parameters that serve as the parametric points through which the functions pass. 
+- Parameters:
+  - $p_0$
+  - $p_1$
+- Return:
+  - [ Array of x values, Array of y values ]
 
 ```python
 from app_config import AppConfig
