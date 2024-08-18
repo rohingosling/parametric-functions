@@ -209,7 +209,7 @@ $$ y_0 \neq y_1 \quad \quad ...P_0 \hspace{2mm} and \hspace{2mm} P_1 \hspace{2mm
 
 - Coefficient Solutions:
 
-$$ a = - \dfrac{ y_1 - y_0 }{ 2 } \quad \quad ...Amplitude. \hspace{7cm} $$
+$$ a = - \dfrac{ y_1 - y_0 }{ 2 } \quad \quad ...Amplitude. \hspace{6.5cm} $$
 
 $$ w = \dfrac{ \pi }{ t_1 - t_0 } \quad \quad ...Frequency. \hspace{7cm} $$
 
