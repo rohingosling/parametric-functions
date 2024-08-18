@@ -203,6 +203,13 @@ $$ y_0 \neq y_1 \quad \quad ...P_0 \hspace{2mm} and \hspace{2mm} P_1 \hspace{2mm
 
 To-do.
 
+$$
+\begin{align*}
+3ax+4by=5cz\\
+3ax<4by+5cz
+\end{align*}
+$$
+
 
 ## Contributing
 Contributions are welcome! Please follow the contribution guidelines.
