@@ -146,6 +146,10 @@ plot_function (
 
 ### Parametric Solutions for Cubic Polynomial Coefficient
 
+- Note:
+  - Parameters computed using symbolic solver from the Python `sympy` package.
+  - In the code, the `solve_cubic_coefficients()` function implements the `sympy` symbolic solution to compute the coeficients.
+  
 - Given:
 
 $$f(x) = a x^3 + b x^2 + c x + d \quad \quad ...Cubic \hspace{2mm} polynomial function.$$ 
@@ -172,7 +176,7 @@ $$ 0 \leq x_0 \leq x_1 \quad \quad ...p_0 \hspace{2mm} comes \hspace{2mm} before
 
 $$ y_0 \neq y_1 \quad \quad ...P_0 \hspace{2mm} and \hspace{2mm} P_1 \hspace{2mm} are \hspace{2mm} not \hspace{2mm} in \hspace{2mm} the \hspace{2mm} same \hspace{2mm} place. $$
 
-- Coefficient Solutions:
+- Coefficient (Paramter) Solutions:
 
 $$ a = \dfrac{ 2 y_1 - 2 y_0 }{ x_0^3 - 3 x_1 x_0^2 + 3 x_0 x_1^2 - x_1^3 } $$
 
@@ -184,6 +188,9 @@ $$ d = \dfrac{ y_1 x_0^3 + 3 x_1 y_1 x_0^2 + 3 x_0 x_1 y_0^2 - x_1 y_0^3 }{ x_0^
 
 
 ### Parametric Solutions for Sine Function Parameters
+
+- Note:
+  - Parameters computed intuitively. No need to formally solve the system of equations.  
 
 - Given:
 
@@ -207,7 +214,7 @@ $$ 0 \leq x_0 \leq x_1 \quad \quad ...p_0 \hspace{2mm} comes \hspace{2mm} before
 
 $$ y_0 \neq y_1 \quad \quad ...P_0 \hspace{2mm} and \hspace{2mm} P_1 \hspace{2mm} are \hspace{2mm} not \hspace{2mm} in \hspace{2mm} the \hspace{2mm} same \hspace{2mm} place. $$
 
-- Coefficient Solutions:
+- Paramter Solutions:
 
 $$ a = - \dfrac{ y_1 - y_0 }{ 2 } \quad \quad ...Amplitude. \hspace{6cm} $$
 
