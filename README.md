@@ -209,7 +209,7 @@ $$ y_0 \neq y_1 \quad \quad ...P_0 \hspace{2mm} and \hspace{2mm} P_1 \hspace{2mm
 
 - Coefficient Solutions:
 
-To-do.
+$$ a = \dfrac{ y_1 - y_0 }{ 2 } $$
 
 
 ## Contributing
