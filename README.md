@@ -210,7 +210,7 @@ $$ f'(t_1) = 0 \quad \quad ...(4) \quad Gradient \hspace{2mm} of \hspace{2mm} f_
 
 - Constraints:
 
-$$ 0 \leq x_0 \leq x_1 \quad \quad ...p_0 \hspace{2mm} comes \hspace{2mm} before \hspace{2mm} p_1. \hspace{3.6cm} $$
+$$ 0 \leq t_0 \leq t_1 \quad \quad ...p_0 \hspace{2mm} comes \hspace{2mm} before \hspace{2mm} p_1. \hspace{3.6cm} $$
 
 $$ y_0 \neq y_1 \quad \quad ...P_0 \hspace{2mm} and \hspace{2mm} P_1 \hspace{2mm} are \hspace{2mm} not \hspace{2mm} in \hspace{2mm} the \hspace{2mm} same \hspace{2mm} place. $$
 
