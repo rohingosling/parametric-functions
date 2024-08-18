@@ -150,11 +150,11 @@ plot_function (
 
 $$f(x) = a x^3 + b x^2 + c x + d \quad \quad ...Cubic \hspace{2mm} polynomial function.$$ 
 
-$$f'(x) = \dfrac{dy}{dx}  = 3 a x^2 + 2 b x + c \quad \quad ...Derivative \hspace{2mm} of \hspace{2mm} f_x.$$
+$$f'(x) = \dfrac{dy}{dx}  = 3 a x^2 + 2 b x + c \quad \quad ...Derivative \hspace{2mm} of \hspace{2mm} f_x. \hspace{1cm} $$
 
-$$ p_0 ( x_0, y_0 ) \quad \quad ...First \hspace{2mm} turning \hspace{2mm} point. $$
+$$ p_0 ( x_0, y_0 ) \quad \quad ...First \hspace{2mm} turning \hspace{2mm} point. \hspace{3cm} $$
 
-$$ p_1 ( x_1, y_1 ) \quad \quad ...Second \hspace{2mm} turning \hspace{2mm} point. $$
+$$ p_1 ( x_1, y_1 ) \quad \quad ...Second \hspace{2mm} turning \hspace{2mm} point. \hspace{3cm} $$
 
 - System of equations to solve:
 
