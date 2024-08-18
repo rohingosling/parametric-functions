@@ -187,7 +187,7 @@ $$ d = \dfrac{ y_1 x_0^3 + 3 x_1 y_1 x_0^2 + 3 x_0 x_1 y_0^2 - x_1 y_0^3 }{ x_0^
 
 - Given:
 
-$$ f(t) = a \cdot sin \left w \cdot ( t - p ) \right + c \quad \quad ...Parametric \hspace{2mm} sine function.$$ 
+$$ f(t) = a \cdot sin \left( w \cdot ( t - p ) \right) + c \quad \quad ...Parametric \hspace{2mm} sine function.$$ 
 
 $$ f'(t) = a \cdot w  \cdot cos( w  \cdot ( t - p ) ) \quad \quad ...Derivative \hspace{2mm} of \hspace{2mm} f_t. \hspace{1.3cm} $$
 
