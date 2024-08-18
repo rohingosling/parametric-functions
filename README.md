@@ -209,7 +209,9 @@ $$ y_0 \neq y_1 \quad \quad ...P_0 \hspace{2mm} and \hspace{2mm} P_1 \hspace{2mm
 
 - Coefficient Solutions:
 
-$$ a = \dfrac{ y_1 - y_0 }{ 2 } $$
+$$ a = \dfrac{ y_1 - y_0 }{ 2 } \quad \quad ...Amplitude.$$
+
+$$ w = \dfrac{ \pi }{ t_1 - t_0 } \quad \quad ...Amplitude.$$
 
 
 ## Contributing
