@@ -4,11 +4,17 @@
 # Author:  Rohin Gosling
 #
 # Description:
+#
 # - Test program used to test Sine and cubic polynomial parametric functions.
 #
 #   f(x) = a·x³ + b·x² + c·x + d 
 #
 #   f(t) = a·sin(w·(t-p)) + c
+#
+# To-Do:
+#
+# - Make a generic solver for all parametric functions, instead of having repeated solver code for algebraic and trigonometric 
+#   function.
 #
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -418,12 +424,9 @@ def main ():
 
     PI = np.pi      # Value of π.    
 
-    # Solve cubic polynomial coefficients.
+    # Solve parametric function parameters. 
 
     solve_cubic_coefficients ()
-
-    # Solve parametric sine function parameters. 
-
     solve_sin_parameters ()
 
     # Test parametric cubic polynomial function.    
@@ -442,7 +445,8 @@ def main ():
         data,
         [ v0, v1 ],
         [ lim_x, lim_y ],
-        'Parametric Cubic Polynomial', 'f(x) = a·x³ + b·x² + c·x + d'
+        'Parametric Cubic Polynomial',
+        'f(x) = a·x³ + b·x² + c·x + d'
     ) 
 
     # Test parametric sine segment function.    
@@ -457,7 +461,13 @@ def main ():
     lim_x = [  0, 2*PI ]
     lim_y = [ -1, 1    ]    
 
-    plot_function ( data, [ v0, v1 ], [ lim_x, lim_y ], 'Parametric Sine Function', 'f(t) = a·sin( w·(t - p) ) + c' ) 
+    plot_function (
+        data,
+        [ v0, v1 ],
+        [ lim_x, lim_y ],
+        'Parametric Sine Function',
+        'f(t) = a·sin( w·(t - p) ) + c'
+    ) 
 
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Program entry point. 
@@ -466,5 +476,3 @@ def main ():
 if __name__ == "__main__":
 
     main ()
-    
-
