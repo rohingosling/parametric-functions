@@ -238,7 +238,9 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## Contact Information
 - Twitter: [@rohingosling](https://x.com/rohingosling)
-- Project Link: [https://github.com/your-username/your-repo](https://github.com/rohingosling/pinger)
+- Project Link: [https://github.com/rohingosling/parametric-functions/tree/main](https://github.com/rohingosling/parametric-functions/tree/main)
+
+
 
 ## Acknowledgments
 - N/A
