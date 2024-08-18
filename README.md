@@ -200,13 +200,13 @@ $$ f'(t) = a \cdot w  \cdot cos \left( w  \cdot ( t - p ) \right) \quad \quad ..
 
 - System of equations to solve:
 
-$$ f(x_0) = y_0 \quad \quad ...(1) \quad f_x \hspace{2mm} passes \hspace{2mm} through \hspace{2mm} p_0. \hspace{1.5cm} $$
+$$ f(t_0) = y_0 \quad \quad ...(1) \quad f_t \hspace{2mm} passes \hspace{2mm} through \hspace{2mm} p_0. \hspace{1.5cm} $$
 
-$$ f(x_1) = y_1 \quad \quad ...(2) \quad f_x \hspace{2mm} passes \hspace{2mm} through \hspace{2mm} p_1. \hspace{1.5cm} $$
+$$ f(t_1) = y_1 \quad \quad ...(2) \quad f_t \hspace{2mm} passes \hspace{2mm} through \hspace{2mm} p_1. \hspace{1.5cm} $$
 
-$$ f'(x_0) = 0 \quad \quad ...(3) \quad Gradient \hspace{2mm} of \hspace{2mm} f_x \hspace{2mm} is \hspace{2mm} zero \hspace{2mm} at \hspace{2mm} p_0. \hspace{2mm} $$
+$$ f'(t_0) = 0 \quad \quad ...(3) \quad Gradient \hspace{2mm} of \hspace{2mm} f_t \hspace{2mm} is \hspace{2mm} zero \hspace{2mm} at \hspace{2mm} p_0. \hspace{2mm} $$
 
-$$ f'(x_1) = 0 \quad \quad ...(4) \quad Gradient \hspace{2mm} of \hspace{2mm} f_x \hspace{2mm} is \hspace{2mm} zero \hspace{2mm} at \hspace{2mm} p_1. \hspace{2mm} $$
+$$ f'(t_1) = 0 \quad \quad ...(4) \quad Gradient \hspace{2mm} of \hspace{2mm} f_t \hspace{2mm} is \hspace{2mm} zero \hspace{2mm} at \hspace{2mm} p_1. \hspace{2mm} $$
 
 - Constraints:
 
