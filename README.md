@@ -209,9 +209,9 @@ $$ y_0 \neq y_1 \quad \quad ...P_0 \hspace{2mm} and \hspace{2mm} P_1 \hspace{2mm
 
 - Coefficient Solutions:
 
-$$ a = - \dfrac{ y_1 - y_0 }{ 2 } \quad \quad ...Amplitude. \hspace{4cm} $$
+$$ a = - \dfrac{ y_1 - y_0 }{ 2 } \quad \quad ...Amplitude. \hspace{5cm} $$
 
-$$ w = \dfrac{ \pi }{ t_1 - t_0 } \quad \quad ...Frequency. \hspace{4cm} $$
+$$ w = \dfrac{ \pi }{ t_1 - t_0 } \quad \quad ...Frequency. \hspace{6cm} $$
 
 $$ p = t_0 - \dfrac{ \pi }{ 2 \cdot w } \quad \quad ...Phase \hspace{2mm} shift. \hspace{2mm} i.e. \hspace{2mm} Horizontal \hspace{2mm} displacement. $$
 
