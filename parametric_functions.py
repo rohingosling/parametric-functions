@@ -4,7 +4,7 @@
 # Author:  Rohin Gosling
 #
 # Description:
-# - Test program used to test parametric Sine and cubic polynomial function.
+# - Test program used to test Sine and cubic polynomial parametric functions.
 #
 #   f(x) = a·x³ + b·x² + c·x + d 
 #
@@ -109,6 +109,73 @@ def solve_cubic_coefficients ():
     solutions = sp.solve ( [ eq1, eq2, eq3, eq4 ], ( a, b, c, d ) )
 
     # Display the solutions.
+
+    print ()
+
+    print ( f" f(t) = {f}" )
+    print ( f"f'(t) = {df}" )
+
+    print ()
+
+    if PRINT_NOTATION_FORMATTED:
+        for solution in solutions:
+            sp.pprint ( sp.Eq ( solution,  solutions [ solution ] ) )
+            print ( "\n" )
+
+    if PRINT_NOTATION_CODE:
+        for solution in solutions:
+            print ( sp.Eq ( solution,  solutions [ solution ] ) )
+            print ( "\n" )
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Solve Parametric Sine Function Parameters. 
+#
+# Use the `sympy` symbolic math engine, to solve for the parameters of a parametric sine function, given two turning points p₀ and p₁.
+#
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+def solve_sin_parameters ():
+
+    # Define local constants.
+    
+    PRINT_NOTATION_FORMATTED = True
+    PRINT_NOTATION_CODE      = True
+    PI                       = np.pi
+
+    # Define lambda functions.
+
+    sin = lambda t : np.sin ( t )
+
+    # Define the symbols.
+
+    a, w, p, c        = sp.symbols ( 'a w p c' )
+    t, t0, t1, y0, y1 = sp.symbols ( 't t0 t1 y0 y1' )
+
+    # Define the function f(x).
+
+    f = a * sp.sin ( w * ( t - p ) ) + c
+
+    # Define the derivative f'(x).
+
+    df = sp.diff ( f, t )
+
+    # Set up system of equations to solve. 
+
+    eq1 = sp.Eq (  f.subs ( t, t0 ), y0 )
+    eq2 = sp.Eq (  f.subs ( t, t1 ), y1 )
+    eq3 = sp.Eq ( df.subs ( t, t0 ), 0  )
+    eq4 = sp.Eq ( df.subs ( t, t1 ), 0  )
+
+    # Solve the system of equations.
+
+    solutions = sp.solve ( [ eq1, eq2, eq3, eq4 ], ( a, w, p, c ) )
+
+    # Display the solutions.
+
+    print ()
+
+    print ( f" f(t) = {f}" )
+    print ( f"f'(t) = {df}" )
 
     print ()
 
@@ -229,7 +296,9 @@ def sin_segment ( v0, v1 ):
 
     # Compute solutions for parametric sin function parameters.
     #
-    #   f(t) = a·sin( w·( t - p ) ) + c
+    #    f(t) = a·sin( w·( t - p ) ) + c
+    #
+    #   f'(t) = a·w·cos( w·( t - p ) )
     #
     #
     #             y₁ - y₀
@@ -353,6 +422,10 @@ def main ():
 
     solve_cubic_coefficients ()
 
+    # Solve parametric sine function parameters. 
+
+    solve_sin_parameters ()
+
     # Test parametric cubic polynomial function.    
     # - Initialise test vertices v₀ and v₁.
     # - Initialise graph domain and range limit vectors.
@@ -360,24 +433,29 @@ def main ():
     v0 = [  0.2 ,  0.2  ]
     v1 = [  0.8 ,  0.8  ]
 
-    lim_x = [  0.0,  1.0  ]
-    lim_y = [  0.0,  1.0  ]
-
     data = cubic_segment ( v0, v1 )
 
-    plot_function ( data, [ v0, v1 ], [ lim_x, lim_y ], 'Parametric Cubic Polynomial', 'f(x) = a·x³ + b·x² + c·x + d' ) 
+    lim_x = [  0.0,  1.0  ]
+    lim_y = [  0.0,  1.0  ]    
+
+    plot_function (
+        data,
+        [ v0, v1 ],
+        [ lim_x, lim_y ],
+        'Parametric Cubic Polynomial', 'f(x) = a·x³ + b·x² + c·x + d'
+    ) 
 
     # Test parametric sine segment function.    
     # - Initialise test vertices v₀ and v₁.
     # - Initialise graph domain and range limit vectors.
     
-    v0 = [  1.0 , -0.25  ]
-    v1 = [  3.0 ,  0.75  ]
-
-    lim_x = [  0, 2*PI ]
-    lim_y = [ -1, 1    ]
+    v0 = [  1.0 , -0.75  ]
+    v1 = [  4.0 ,  0.5   ]
 
     data = sin_segment ( v0, v1 )
+
+    lim_x = [  0, 2*PI ]
+    lim_y = [ -1, 1    ]    
 
     plot_function ( data, [ v0, v1 ], [ lim_x, lim_y ], 'Parametric Sine Function', 'f(t) = a·sin( w·(t - p) ) + c' ) 
 
