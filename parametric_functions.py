@@ -246,7 +246,7 @@ def cubic_segment ( v0, v1 ):
     #               x₀³ - 3⋅x₁⋅x₀² + 3⋅x₀⋅x₁² - x₁³
     #     
 
-    # Compute coefficient substitutions.
+    # Compute common coefficient denominator.
     
     dx = x0**3 - 3*x1*x0**2 + 3*x0*x1**2 - x1**3
 
